@@ -50,6 +50,5 @@ p {color: hsl(216, 15%, 48%);
 
 .attribution {
     font-size: 11px;
-    justify-content: center;
-    display: flex;
+    margin: auto;
 }
