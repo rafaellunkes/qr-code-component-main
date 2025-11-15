@@ -32,7 +32,7 @@ main {
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: clamp(0.8em, 0.8em + 0.1vw, 1em);
     border-radius: 16px;
 }
 
@@ -43,24 +43,24 @@ img {
 }
 
 .texto {
-    margin: 1em;
+    margin: clamp(0.8em, 0.8em + 0.1vw, 1em);
 }
 
 h1 {
     color: var(--fontcolor-title);
     margin-block-start: 0;
     text-align: center;
-    font-size: 1.5em;
+    font-size: clamp(0.8em, 1.5em + 1vw, 1.5em);
 }
 
 p {color: var(--fontcolor-p);
     text-align: center;
-    font-size: 1.1em;
+    font-size: clamp(0.5em, 1.1em + 0.1vw, 1.1em);
 }
 
 .attribution a { color: var(--color-a); }
 
 .attribution {
-    font-size: 0.8em;
+    font-size: clamp(0.5em, 0.8em + 0.1vw , 0.8em);
     margin: auto;
 }
